@@ -1,6 +1,6 @@
 # Sohan
 
-1st year Computer Science & Engineering student. I spend most of my time tweaking custom Arch setups (CachyOS / Omarchy), writing code, and breaking/fixing my system.
+1st year Computer Science & Engineering student. I spend most of my time tweaking custom desktop setups, writing code, and breaking/fixing my system.
 
 ### What I Use Daily
 * **OS:** CachyOS with Niri
