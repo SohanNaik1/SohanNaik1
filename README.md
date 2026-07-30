@@ -15,7 +15,3 @@
 * **niri-screen-time:** CLI background daemon tracking active window focus via Niri Unix sockets.
 * **DeciHire:** Entry-level recruitment platform built with a 4-person team featuring interactive skill trees.
 * **Phishing Detector:** Rule-based heuristic security scanner.
-
-### Off-Screen
-* **Games:** Titanfall 2, Sekiro, Phasmophobia, Minecraft
-* **Music:** psychedelic rock/pop
