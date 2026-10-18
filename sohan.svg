@@ -10,6 +10,43 @@
     .role { fill: #c8d1dc; font-size: 24px; }
     .label { fill: #748092; font-size: 16px; letter-spacing: 2px; }
     .value { fill: #a9d5ff; font-size: 18px; font-weight: 600; }
+
+    .status-dot {
+      animation: pulse 2s ease-in-out infinite;
+      transform-box: fill-box;
+      transform-origin: center;
+    }
+
+    .accent {
+      animation: glow 3s ease-in-out infinite;
+    }
+
+    .profile-name {
+      animation: fade-in 1s ease-out both;
+    }
+
+    .profile-role {
+      animation: fade-in 1s ease-out 0.25s both;
+    }
+
+    .profile-meta {
+      animation: fade-in 1s ease-out 0.5s both;
+    }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.45; transform: scale(1.35); }
+    }
+
+    @keyframes glow {
+      0%, 100% { opacity: 0.65; }
+      50% { opacity: 1; }
+    }
+
+    @keyframes fade-in {
+      from { opacity: 0; transform: translateY(8px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
   </style>
 
   <rect width="1450" height="382" fill="#101010" />
@@ -17,43 +54,20 @@
   <rect x="45" y="35" width="1360" height="290" rx="58" fill="#0d1218" stroke="#1e2732" stroke-width="2" />
   <rect x="58" y="48" width="1334" height="264" rx="46" fill="none" stroke="#111820" stroke-width="2" />
 
-  <circle cx="102" cy="92" r="7" fill="#36a853" />
+  <circle class="status-dot" cx="102" cy="92" r="7" fill="#36a853" />
   <text x="126" y="98" class="mono eyebrow">SYSTEMS &amp; BACKEND ENGINEERING // BENGALURU, IN</text>
 
-  <text x="95" y="166" class="sans name">Sohan S Naik</text>
-  <text x="95" y="210" class="sans role">Building low-latency distributed systems, concurrent Go services, and Linux IPC tooling.</text>
+  <text x="95" y="166" class="sans name profile-name">Sohan S Naik</text>
+  <text x="95" y="210" class="sans role profile-role">Building low-latency distributed systems, concurrent Go services, and Linux IPC tooling.</text>
 
   <line x1="95" y1="246" x2="1360" y2="246" stroke="#26303b" stroke-width="2" />
-  <line x1="265" y1="246" x2="470" y2="246" stroke="#4da3ff" stroke-width="3" />
+  <line class="accent" x1="265" y1="246" x2="470" y2="246" stroke="#4da3ff" stroke-width="3" />
 
-  <text x="95" y="286" class="mono label">RUNTIME</text>
-  <text x="206" y="286" class="mono value">Go · C · Python · Java</text>
+  <g class="profile-meta">
+    <text x="95" y="286" class="mono label">RUNTIME</text>
+    <text x="206" y="286" class="mono value">Go · C · Python · Java</text>
 
-  <text x="573" y="286" class="mono label">DOMAINS</text>
-  <text x="694" y="286" class="mono value">Concurrency · P2P/mDNS · RAG · Linux/Wayland</text>
-
-  <g transform="translate(1280 96)" fill="none" stroke="#d9dee5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-    <rect x="-12" y="-14" width="20" height="25" rx="5" />
-    <path d="M-18 -8v20a5 5 0 0 0 5 5h16" />
-  </g>
-
-  <g transform="translate(1368 96)" fill="none" stroke="#d9dee5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M0 -15v24" />
-    <path d="m-10 1 10 10L10 1" />
-    <path d="M-15 12v4a5 5 0 0 0 5 5h20a5 5 0 0 0 5-5v-4" />
-  </g>
-
-  <circle cx="1280" cy="96" r="36" fill="#151a21" opacity="0.92" />
-  <circle cx="1368" cy="96" r="36" fill="#151a21" opacity="0.92" />
-
-  <g transform="translate(1280 96)" fill="none" stroke="#d9dee5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-    <rect x="-12" y="-14" width="20" height="25" rx="5" />
-    <path d="M-18 -8v20a5 5 0 0 0 5 5h16" />
-  </g>
-
-  <g transform="translate(1368 96)" fill="none" stroke="#d9dee5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M0 -15v24" />
-    <path d="m-10 1 10 10L10 1" />
-    <path d="M-15 12v4a5 5 0 0 0 5 5h20a5 5 0 0 0 5-5v-4" />
+    <text x="573" y="286" class="mono label">DOMAINS</text>
+    <text x="694" y="286" class="mono value">Concurrency · P2P/mDNS · RAG · Linux/Wayland</text>
   </g>
 </svg>
