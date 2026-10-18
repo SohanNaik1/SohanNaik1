@@ -1,10 +1,3 @@
-<div align="center">
-  <img src="./sohan.svg" width="100%" alt="Sohan S Naik - Systems & Backend Engineering" />
-  <br><br>
-  <sub>
-    <samp>
-      <a href="mailto:sohannaik059@gmail.com">email</a> ·
-      <a href="https://linkedin.com/in/sohan-s-naik0">linkedin</a>
-    </samp>
-  </sub>
-</div>
+<img src="./sohan.svg" alt="Sohan S Naik, Go developer at Atria Institute of Technology, Bengaluru" width="100%">
+
+[LinkedIn](https://www.linkedin.com/in/sohan-s-naik0) · [Email](mailto:sohannaik059@gmail.com)
