@@ -1,30 +1,30 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 252" width="880" height="252" role="img" aria-labelledby="t d" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 252" width="880" height="252" role="img" aria-labelledby="t d" font-family="-apple-system,BlinkMacSystemFont,&#39;Segoe UI&#39;,Helvetica,Arial,sans-serif">
 <title id="t">Sohan S Naik</title>
-<desc id="d">Go developer at Atria Institute of Technology, Bengaluru. Five peers connect in a mesh with no central server.</desc>
-<rect x=".5" y=".5" width="879" height="251" rx="6" fill="#0d1117" stroke="#30363d"/>
+<desc id="d">Sohan S Naik - Systems and Backend Engineering</desc>
+<rect x=".5" y=".5" width="879" height="251" rx="6" fill="#0d1117" stroke="#30363d" />
 <text x="40" y="70" font-size="36" font-weight="700" letter-spacing="-.5" fill="#e6edf3">Sohan S Naik</text>
 <text x="40" y="96" font-size="14" fill="#8b949e">Atria Institute of Technology, Bengaluru</text>
-<text x="40" y="144" font-size="19" font-weight="600" fill="#e6edf3">I build networked systems in Go.</text>
-<text x="40" y="170" font-size="15" fill="#8b949e">Devices that find each other without a server,</text>
-<text x="40" y="192" font-size="15" fill="#8b949e">and retrieval that answers in under 200 ms.</text>
-<path d="M40 208H840" stroke="#30363d"/>
-<text x="40" y="232" font-size="14" fill="#8b949e">Mostly Go. Some C, Python and Java.</text>
-<text x="738" y="232" font-size="14" fill="#8b949e" text-anchor="middle">Five peers, no central server.</text>
-<path d="M738 70L793 110 772 175 704 175 683 110Z M738 70L772 175 683 110 793 110 704 175Z" fill="none" stroke="#30363d"/>
+<text x="40" y="144" font-size="19" font-weight="600" fill="#e6edf3">Systems, concurrency, and backend architecture.</text>
+<text x="40" y="170" font-size="15" fill="#8b949e">Building low-overhead services, distributed protocols,</text>
+<text x="40" y="192" font-size="15" fill="#8b949e">and exploring how software behaves under the hood.</text>
+<path d="M40 208H840" stroke="#30363d" />
+<text x="40" y="232" font-size="14" fill="#8b949e">Go · C · Python · Java · Linux · Networks</text>
+<text x="738" y="232" font-size="14" fill="#8b949e" text-anchor="middle">Distributed networks and topology.</text>
+<path d="M738 70L793 110 772 175 704 175 683 110Z M738 70L772 175 683 110 793 110 704 175Z" fill="none" stroke="#30363d" />
 <path d="M738 70L772 175 683 110 793 110 704 175" fill="none" stroke="#e3b341" stroke-opacity=".6" pathLength="1" stroke-dasharray="1 2" stroke-dashoffset="1">
-<animate attributeName="stroke-dashoffset" values="1;1;0;0" keyTimes="0;0.0667;0.6;1" dur="9s" repeatCount="indefinite"/>
-<animate attributeName="stroke-opacity" values=".6;.6;0;0" keyTimes="0;0.8222;0.9333;1" dur="9s" repeatCount="indefinite"/>
+<animate attributeName="stroke-dashoffset" values="1;1;0;0" keyTimes="0;0.0667;0.6;1" dur="9s" repeatCount="indefinite" />
+<animate attributeName="stroke-opacity" values=".6;.6;0;0" keyTimes="0;0.8222;0.9333;1" dur="9s" repeatCount="indefinite" />
 </path>
 <g fill="#484f58" stroke="#0d1117" stroke-width="2">
-<circle cx="738" cy="70" r="5"><animate attributeName="fill" values="#484f58;#484f58;#e3b341;#e3b341;#484f58;#484f58" keyTimes="0;0.0667;0.1;0.8222;0.9333;1" dur="9s" repeatCount="indefinite"/></circle>
-<circle cx="772" cy="175" r="5"><animate attributeName="fill" values="#484f58;#484f58;#e3b341;#e3b341;#484f58;#484f58" keyTimes="0;0.2;0.2333;0.8222;0.9333;1" dur="9s" repeatCount="indefinite"/></circle>
-<circle cx="683" cy="110" r="5"><animate attributeName="fill" values="#484f58;#484f58;#e3b341;#e3b341;#484f58;#484f58" keyTimes="0;0.3333;0.3667;0.8222;0.9333;1" dur="9s" repeatCount="indefinite"/></circle>
-<circle cx="793" cy="110" r="5"><animate attributeName="fill" values="#484f58;#484f58;#e3b341;#e3b341;#484f58;#484f58" keyTimes="0;0.4667;0.5;0.8222;0.9333;1" dur="9s" repeatCount="indefinite"/></circle>
-<circle cx="704" cy="175" r="5"><animate attributeName="fill" values="#484f58;#484f58;#e3b341;#e3b341;#484f58;#484f58" keyTimes="0;0.6;0.6333;0.8222;0.9333;1" dur="9s" repeatCount="indefinite"/></circle>
+<circle cx="738" cy="70" r="5"><animate attributeName="fill" values="#484f58;#484f58;#e3b341;#e3b341;#484f58;#484f58" keyTimes="0;0.0667;0.1;0.8222;0.9333;1" dur="9s" repeatCount="indefinite" /></circle>
+<circle cx="772" cy="175" r="5"><animate attributeName="fill" values="#484f58;#484f58;#e3b341;#e3b341;#484f58;#484f58" keyTimes="0;0.2;0.2333;0.8222;0.9333;1" dur="9s" repeatCount="indefinite" /></circle>
+<circle cx="683" cy="110" r="5"><animate attributeName="fill" values="#484f58;#484f58;#e3b341;#e3b341;#484f58;#484f58" keyTimes="0;0.3333;0.3667;0.8222;0.9333;1" dur="9s" repeatCount="indefinite" /></circle>
+<circle cx="793" cy="110" r="5"><animate attributeName="fill" values="#484f58;#484f58;#e3b341;#e3b341;#484f58;#484f58" keyTimes="0;0.4667;0.5;0.8222;0.9333;1" dur="9s" repeatCount="indefinite" /></circle>
+<circle cx="704" cy="175" r="5"><animate attributeName="fill" values="#484f58;#484f58;#e3b341;#e3b341;#484f58;#484f58" keyTimes="0;0.6;0.6333;0.8222;0.9333;1" dur="9s" repeatCount="indefinite" /></circle>
 </g>
 <circle cx="738" cy="70" r="3" fill="#e3b341" opacity="0">
-<animate attributeName="cx" values="738;738;772;683;793;704;704" keyTimes="0;0.0667;0.2;0.3333;0.4667;0.6;1" dur="9s" repeatCount="indefinite"/>
-<animate attributeName="cy" values="70;70;175;110;110;175;175" keyTimes="0;0.0667;0.2;0.3333;0.4667;0.6;1" dur="9s" repeatCount="indefinite"/>
-<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.0444;0.0667;0.6;0.6444;1" dur="9s" repeatCount="indefinite"/>
+<animate attributeName="cx" values="738;738;772;683;793;704;704" keyTimes="0;0.0667;0.2;0.3333;0.4667;0.6;1" dur="9s" repeatCount="indefinite" />
+<animate attributeName="cy" values="70;70;175;110;110;175;175" keyTimes="0;0.0667;0.2;0.3333;0.4667;0.6;1" dur="9s" repeatCount="indefinite" />
+<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.0444;0.0667;0.6;0.6444;1" dur="9s" repeatCount="indefinite" />
 </circle>
 </svg>
