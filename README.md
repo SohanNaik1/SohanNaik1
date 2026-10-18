@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./sohan.svg" width="100%" alt="Sohan S Naik - Systems & Backend Engineering" />
+  <img src="./header.svg" width="100%" alt="Sohan S Naik - Systems & Backend Engineering" />
   <br><br>
   <sub>
     <samp>
